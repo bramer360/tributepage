@@ -1,0 +1,129 @@
+#title {
+  font-size: 350px;
+}
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+h3 {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+#quote {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: #f2f3f4;
+  font-size: 40px;
+  margin-left: 300px;
+  margin-right: 300px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-style: solid;
+  border-width: 6px;
+  border-color: white;
+
+}
+#hexwhite-text {
+  color: #f2f3f4;
+}
+
+#img-caption {
+  color: #f2f3f4;
+  font-size: 25px;
+  margin-left: 225px;
+}
+
+#tribute-info {
+  color: #f2f3f4;
+  font-size: 18px;
+}
+
+
+img {
+  width: 70%;
+  height: auto;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+ }
+body {
+  background: url(https://images.pexels.com/photos/1154739/pexels-photo-1154739.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500)
+}
+
+#flex{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  color: #f2f3f4;
+  font-size: 26px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+p {
+}
+.opacity {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-left: 5%;
+  padding-right: 5%;
+  border-style: solid;
+  border-width: 6px;
+  border-color: white;
+  margin: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 300px;
+  align-content:center;
+}
+
+#conclusion {
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+  margin-right: 950px;
+  font-family: Arial;
+}
+
+
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
